@@ -1,0 +1,36 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:8080
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8080
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    # Для Python-агентов: раскомментировать при добавлении
+    # networks:
+    #   - masterlab
+
+  # Placeholder для Python-агентов (раскомментировать при готовности)
+  # agents:
+  #   build: ./agents
+  #   ports:
+  #     - "8000:8000"
+  #   depends_on:
+  #     - backend
+  #   environment:
+  #     MASTERLAB_API_URL: http://backend:8080
+  #   networks:
+  #     - masterlab
+
+# networks:
+#   masterlab:
+#     driver: bridge

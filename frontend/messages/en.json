@@ -1,0 +1,38 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error"
+  },
+  "header": {
+    "title": "MasterLab Global Conveyor — System Active",
+    "subtitle": "Master panel"
+  },
+  "backend": {
+    "checking": "Backend: checking...",
+    "online": "Backend: online",
+    "offline": "Backend: unavailable"
+  },
+  "content": {
+    "title": "Content from AI Agents",
+    "formTitle": "Title",
+    "formTitlePlaceholder": "Enter article title",
+    "formText": "Article text",
+    "formTextPlaceholder": "Paste article text for AI review...",
+    "submit": "Submit for AI review",
+    "submitting": "Submitting...",
+    "success": "Article submitted for review. ID: {id}, status: {status}",
+    "error": "Submission failed. Ensure the backend is running."
+  },
+  "repairs": {
+    "title": "Repair orders",
+    "addButton": "Add repair",
+    "id": "№",
+    "client": "Client",
+    "device": "Device",
+    "status": "Status",
+    "loadError": "Failed to load data. Start the backend (mvn spring-boot:run)."
+  },
+  "footer": {
+    "copyright": "© MasterLab. All rights reserved."
+  }
+}

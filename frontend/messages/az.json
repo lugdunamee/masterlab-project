@@ -1,0 +1,38 @@
+{
+  "common": {
+    "loading": "Yüklənir...",
+    "error": "Xəta"
+  },
+  "header": {
+    "title": "MasterLab Global Conveyor — Sistem Aktiv",
+    "subtitle": "Usta paneli"
+  },
+  "backend": {
+    "checking": "Backend: yoxlanılır...",
+    "online": "Backend: onlayn",
+    "offline": "Backend: əlçatan deyil"
+  },
+  "content": {
+    "title": "İA agentlərdən məzmun",
+    "formTitle": "Başlıq",
+    "formTitlePlaceholder": "Məqalə başlığını daxil edin",
+    "formText": "Məqalə mətni",
+    "formTextPlaceholder": "İA yoxlaması üçün məqalə mətnini əlavə edin...",
+    "submit": "İA yoxlamasına göndər",
+    "submitting": "Göndərilir...",
+    "success": "Məqalə yoxlamaya qəbul edildi. ID: {id}, status: {status}",
+    "error": "Göndərmə uğursuz oldu. Backend-in işlədiyindən əmin olun."
+  },
+  "repairs": {
+    "title": "Təmir sifarişləri",
+    "addButton": "Təmir əlavə et",
+    "id": "№",
+    "client": "Müştəri",
+    "device": "Cihaz",
+    "status": "Status",
+    "loadError": "Məlumat yüklənə bilmədi. Backend-i başladın (mvn spring-boot:run)."
+  },
+  "footer": {
+    "copyright": "© MasterLab. Bütün hüquqlar qorunur."
+  }
+}
